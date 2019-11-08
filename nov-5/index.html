@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>JSON</title>
+  </head>
+
+  <body>
+    <div>some content</div>
+    <!--
+      {
+        "id": 12,
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 40,
+        "comments": [
+          { "id": 1, "body": "comment12345678", "postId": 12, "createdAt": "2019-10-05" },
+          { "id": 2, "body": "comment12345678eeeee" },
+          { "id": 3, "body": "comment12345678" }
+        ]
+      }
+    -->
+    <form method="GET" action="success.html">
+      Using GET method
+      <input name="firstName" type="text">
+      <input name="lastName" type="text">
+      <button type="submit">submit-GET</button>
+    </form>
+
+    <form method="POST" action="success.html">
+      Using POST method
+      <input name="firstName" type="text">
+      <input name="lastName" type="text">
+      <button type="submit">submit-POST</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
